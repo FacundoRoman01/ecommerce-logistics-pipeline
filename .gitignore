@@ -1,0 +1,37 @@
+# --- PYTHON ---
+# Archivos compilados de Python y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# --- ENTORNO VIRTUAL ---
+# Las carpetas del entorno virtual nunca se suben (pesan mucho y se recrean con pip)
+venv/
+env/
+.venv/
+
+# --- BASES DE DATOS Y DATOS LOCALES ---
+# Como vamos a usar SQLite para guardar los datos, no queremos subir la base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Si en algún momento guardás archivos CSV, JSON de prueba o Excels locales:
+data/
+*.csv
+*.xlsx
+
+# --- CONFIGURACIÓN Y SECRETOS ---
+# Archivos de entorno (por si más adelante usás credenciales o APIs ocultas)
+.env
+
+# --- EDITORES E IDEAS ---
+# Configuraciones locales de VS Code o PyCharm
+.vscode/
+.idea/
+
+# --- SISTEMA OPERATIVO ---
+# Archivos invisibles que crean Windows o Mac
+.DS_Store
+Thumbs.db
