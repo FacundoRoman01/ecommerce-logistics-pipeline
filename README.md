@@ -52,18 +52,8 @@ Carga (load.py): Persistencia automatizada de tres tablas normalizadas en SQLite
 Reportes y Explotación (generate_reports.py): Ejecución de consultas SQL avanzadas (JOINs, agrupaciones y métricas de negocio) y exportación automática a un reporte ejecutivo en Excel (ecommerce_report.xlsx) preparado para analítica visual.
 
 ## ⚙️ Instrucciones de Instalación y Ejecución
-Clonar el repositorio:
-
-
-git clone [https://github.com/tu-usuario/ecommerce-logistics-pipeline.git]
+git clone https://github.com/tu-usuario/ecommerce-logistics-pipeline.git
 cd ecommerce-logistics-pipeline
-Instalar las dependencias:
-
-
 pip install -r requirements.txt
-Ejecutar el pipeline ETL principal:
-
 python main.py
-Generar las consultas SQL y el reporte Excel para BI:
-
 python query_db.py
