@@ -30,7 +30,7 @@ ecommerce-logistics-pipeline/
 │
 ├── .gitignore             # Archivos excluidos del control de versiones
 ├── main.py                # Orquestador central del ETL
-├── query_db.py            # Capa de servicios, consultas SQL y exportación a Excel
+├── generate_reports.py            # Capa de servicios, consultas SQL y exportación a Excel
 ├── README.md              # Documentación del proyecto
 └── requirements.txt       # Dependencias del proyecto
 
@@ -49,7 +49,7 @@ Modelado relacional (explode de carritos para generar la tabla de detalle relaci
 
 Carga (load.py): Persistencia automatizada de tres tablas normalizadas en SQLite (products, carts, cart_items).
 
-Reportes y Explotación (query_db.py): Ejecución de consultas SQL avanzadas (JOINs, agrupaciones y métricas de negocio) y exportación automática a un reporte ejecutivo en Excel (ecommerce_report.xlsx) preparado para analítica visual.
+Reportes y Explotación (generate_reports.py): Ejecución de consultas SQL avanzadas (JOINs, agrupaciones y métricas de negocio) y exportación automática a un reporte ejecutivo en Excel (ecommerce_report.xlsx) preparado para analítica visual.
 
 ## ⚙️ Instrucciones de Instalación y Ejecución
 Clonar el repositorio:
